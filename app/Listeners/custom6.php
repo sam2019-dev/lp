@@ -28,6 +28,6 @@ class custom6
     public function handle(myevent $event)
     {
        $event->first++;
-        echo "custom6";
+        echo "custom6".$event->first;
     }
 }
